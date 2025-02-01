@@ -1,0 +1,167 @@
+[
+    {
+        "model": "blogs.posts",
+        "fields": {
+            "title": "Django REST frameworkで作るモダンなAPI開発入門",
+            "contents": "DjangoでRESTful APIを構築する方法を解説します。シリアライザの使い方、ビューセットの実装、認証の追加など、実践的な開発手法をステップバイステップで説明していきます。",
+            "post_date": "2024-02-01",
+            "post_no": "post-001",
+            "categories": [5],
+            "tags": [3, 8, 17]
+        }
+    },
+    {
+        "model": "blogs.posts",
+        "fields": {
+            "title": "React + TypeScriptで始める型安全な開発",
+            "contents": "Reactプロジェクトに TypeScriptを導入する方法と、コンポーネントの型定義、Hooksの活用方法について解説します。実際のプロジェクトで使える実践的なテクニックを紹介。",
+            "post_date": "2024-02-03",
+            "post_no": "post-002",
+            "categories": [6],
+            "tags": [4, 13]
+        }
+    },
+    {
+        "model": "blogs.posts",
+        "fields": {
+            "title": "MongoDBとMongooseを使った効率的なデータ設計",
+            "contents": "NoSQLデータベースであるMongoDBの特徴と、Mongooseを使用した効率的なスキーマ設計について解説します。リレーションの扱い方やインデックスの最適化についても触れています。",
+            "post_date": "2024-02-05",
+            "post_no": "post-003",
+            "categories": [7],
+            "tags": [8, 3]
+        }
+    },
+    {
+        "model": "blogs.posts",
+        "fields": {
+            "title": "Docker Composeで作る開発環境",
+            "contents": "Dockerを使用した開発環境の構築方法を解説します。複数コンテナの管理、ボリュームの設定、ネットワークの構成など、実践的な環境構築のテクニックを紹介。",
+            "post_date": "2024-02-07",
+            "post_no": "post-004",
+            "categories": [20],
+            "tags": [11, 19]
+        }
+    },
+    {
+        "model": "blogs.posts",
+        "fields": {
+            "title": "AWS Lambda + API Gatewayでサーバーレスアプリケーション構築",
+            "contents": "AWSのサーバーレスサービスを使用したアプリケーション開発について解説します。Lambda関数の作成からAPI Gatewayとの連携、デプロイメントまでを詳しく説明。",
+            "post_date": "2024-02-09",
+            "post_no": "post-005",
+            "categories": [9],
+            "tags": [15, 12]
+        }
+    },
+    {
+        "model": "blogs.posts",
+        "fields": {
+            "title": "Pythonで始める機械学習入門",
+            "contents": "scikit-learnを使用した機械学習の基礎から実践までを解説。データの前処理、モデルの選択、学習の実行、評価方法など、初心者でもわかりやすく説明します。",
+            "post_date": "2024-02-11",
+            "post_no": "post-006",
+            "categories": [14],
+            "tags": [1, 3]
+        }
+    },
+    {
+        "model": "blogs.posts",
+        "fields": {
+            "title": "マイクロサービスアーキテクチャの実践的導入ガイド",
+            "contents": "マイクロサービスの設計原則から、実際の実装、デプロイメント、監視まで。サービス間通信の方法やデータの一貫性の確保について詳しく解説します。",
+            "post_date": "2024-02-13",
+            "post_no": "post-007",
+            "categories": [18],
+            "tags": [19, 11, 15]
+        }
+    },
+    {
+        "model": "blogs.posts",
+        "fields": {
+            "title": "Jest + React Testing Libraryでのフロントエンドテスト",
+            "contents": "Reactアプリケーションのテスト方法について解説。コンポーネントのテスト、ユーザーイベントのシミュレーション、モックの使用方法などを実例とともに説明します。",
+            "post_date": "2024-02-15",
+            "post_no": "post-008",
+            "categories": [16],
+            "tags": [4, 13]
+        }
+    },
+    {
+        "model": "blogs.posts",
+        "fields": {
+            "title": "GraphQLとApolloを使用したモダンなAPI開発",
+            "contents": "GraphQLの基本概念から、Apolloを使用したクライアント・サーバー実装まで。REST APIとの違いや、実際のユースケースについても解説します。",
+            "post_date": "2024-02-17",
+            "post_no": "post-009",
+            "categories": [9],
+            "tags": [17, 4]
+        }
+    },
+    {
+        "model": "blogs.posts",
+        "fields": {
+            "title": "Kubernetesで始めるコンテナオーケストレーション",
+            "contents": "Kubernetesの基本概念から実践的なデプロイメントまで。Podの管理、スケーリング、ロードバランシング、設定管理などについて詳しく解説します。",
+            "post_date": "2024-02-19",
+            "post_no": "post-010",
+            "categories": [20],
+            "tags": [19, 11]
+        }
+    },
+    {
+        "model": "blogs.posts",
+        "fields": {
+            "title": "セキュアなWebアプリケーション開発ガイド",
+            "contents": "Webアプリケーションにおける一般的なセキュリティ脆弱性と対策について解説。XSS、CSRF、SQLインジェクションなどの対策方法を具体的に説明します。",
+            "post_date": "2024-02-21",
+            "post_no": "post-011",
+            "categories": [10],
+            "tags": [3, 4]
+        }
+    },
+    {
+        "model": "blogs.posts",
+        "fields": {
+            "title": "GitHubActionsで実現する自動デプロイメント",
+            "contents": "GitHubActionsを使用したCI/CDパイプラインの構築方法を解説。テスト、ビルド、デプロイの自動化について、実際のワークフロー設定例とともに説明します。",
+            "post_date": "2024-02-23",
+            "post_no": "post-012",
+            "categories": [20],
+            "tags": [12, 11]
+        }
+    },
+    {
+        "model": "blogs.posts",
+        "fields": {
+            "title": "TypeScriptで作る堅牢なバックエンド開発",
+            "contents": "Node.js + TypeScriptを使用したバックエンド開発の実践的なテクニックを解説。型安全性の確保、エラーハンドリング、テスト方法について詳しく説明します。",
+            "post_date": "2024-02-25",
+            "post_no": "post-013",
+            "categories": [5],
+            "tags": [13, 3]
+        }
+    },
+    {
+        "model": "blogs.posts",
+        "fields": {
+            "title": "MongoDB AtlasとMongooseの実践的な使い方",
+            "contents": "クラウドサービスのMongoDB Atlasの設定から、Mongooseを使用したスキーマ設計、クエリの最適化まで。実践的なデータベース運用方法を解説します。",
+            "post_date": "2024-02-27",
+            "post_no": "post-014",
+            "categories": [7],
+            "tags": [8, 15]
+        }
+    },
+    {
+        "model": "blogs.posts",
+        "fields": {
+            "title": "フロントエンドのパフォーマンス最適化テクニック",
+            "contents": "Reactアプリケーションのパフォーマンス改善方法について解説。バンドルサイズの最適化、メモ化、レンダリングの最適化など、実践的なテクニックを紹介します。",
+            "post_date": "2024-02-29",
+            "post_no": "post-015",
+            "categories": [6],
+            "tags": [4, 13]
+        }
+    }
+] 

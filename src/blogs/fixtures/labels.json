@@ -1,0 +1,162 @@
+[
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 1,
+            "name": "Python",
+            "type": "category"
+        }
+    },
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 2,
+            "name": "JavaScript",
+            "type": "category"
+        }
+    },
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 3,
+            "name": "Django",
+            "type": "post_tag"
+        }
+    },
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 4,
+            "name": "React",
+            "type": "post_tag"
+        }
+    },
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 5,
+            "name": "バックエンド",
+            "type": "category"
+        }
+    },
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 6,
+            "name": "フロントエンド",
+            "type": "category"
+        }
+    },
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 7,
+            "name": "データベース",
+            "type": "category"
+        }
+    },
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 8,
+            "name": "MongoDB",
+            "type": "post_tag"
+        }
+    },
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 9,
+            "name": "API開発",
+            "type": "category"
+        }
+    },
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 10,
+            "name": "セキュリティ",
+            "type": "category"
+        }
+    },
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 11,
+            "name": "Docker",
+            "type": "post_tag"
+        }
+    },
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 12,
+            "name": "CI/CD",
+            "type": "post_tag"
+        }
+    },
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 13,
+            "name": "TypeScript",
+            "type": "post_tag"
+        }
+    },
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 14,
+            "name": "機械学習",
+            "type": "category"
+        }
+    },
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 15,
+            "name": "AWS",
+            "type": "post_tag"
+        }
+    },
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 16,
+            "name": "テスト駆動開発",
+            "type": "category"
+        }
+    },
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 17,
+            "name": "GraphQL",
+            "type": "post_tag"
+        }
+    },
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 18,
+            "name": "マイクロサービス",
+            "type": "category"
+        }
+    },
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 19,
+            "name": "Kubernetes",
+            "type": "post_tag"
+        }
+    },
+    {
+        "model": "blogs.labels",
+        "fields": {
+            "no": 20,
+            "name": "デプロイメント",
+            "type": "category"
+        }
+    }
+]
