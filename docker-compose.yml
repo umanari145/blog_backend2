@@ -2,25 +2,42 @@ version: '3.8'
 
 services:
   web:
+    container_name: dja_web
     build: ./docker/python
     volumes:
       - ./src:/code
     tty: true
     ports:
       - "8000:8000"
-    environment:
-      - MONGODB_HOST=mongodb
-      - MONGODB_PORT=27017
-      - MONGODB_NAME=mydb
-    depends_on:
-      - mongodb
+    networks:
+      - dja_backend
 
-  mongodb:
-    image: mongo:latest
+  mongo:
+    container_name: dja_db
+    restart: always
+    image: mongo
     ports:
       - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: pass 
+    networks:
+      - dja_backend      
+
+  mongo_node:
+    container_name: "dja_mongo_node"
+    image: node:18.12-alpine
+    ports:
+      - 3000:3000
+    tty: true
     volumes:
-      - mongodb_data:/data/db
+        - ./mongo:/app
+    networks:
+      - dja_backend
 
 volumes:
   mongodb_data:
+
+networks:
+  dja_backend:
+    driver: "bridge"  
