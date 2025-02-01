@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  web:
+    build: ./docker/python
+    volumes:
+      - ./src:/code
+    tty: true
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGODB_HOST=mongodb
+      - MONGODB_PORT=27017
+      - MONGODB_NAME=mydb
+    depends_on:
+      - mongodb
+
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+
+volumes:
+  mongodb_data:
